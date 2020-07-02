@@ -1,0 +1,212 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+h1, h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 22px;
+}
+p {
+  font-size: 16px;
+  color: #464646;
+}
+a {
+  font-size: 16px;
+  color: #EBC154;
+}
+a .link{
+  font-size: 6px;
+}
+
+.bg-dark {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+.line{
+  width: 150px;
+  height: 10px;
+  background-color: #EBC154;
+
+}
+#tours-section .tour-overlay {
+  background-image: url(./img/contact-us.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.btn {
+  background-color: #EBC154!important;
+  color: #fff;
+  border: 1px solid #fff;
+}
+.icon-style{
+  font-size: 16px;
+  color: #EBC154;
+}
+.banner{
+  background-image: url('./img/contact.png');
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  height: 100vh;
+  margin-bottom: 100px;
+ }
+ .header{
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 88px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color: #FFFFFF;
+}
+/* nav */
+nav {
+  height: 60px;
+  z-index: 100;
+  background: transparent;
+}
+
+.active .nav-link {
+  color: #EBC154 !important;
+}
+
+.nav-link {
+  color: #ccc !important;
+  font-size: 16px;
+  font-weight: bold;
+}
+.wrap{
+  background: url(./img/contact.png);
+  height: 700px;
+  background-size: cover;
+  width: auto;
+}
+
+
+/* footer */
+footer {
+  margin-top: 50px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/about-video.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 60px 0 30px;
+}
+
+footer input.form-control {
+  border: 1px solid #fff;
+  background-color: rgba(0, 0, 0, 0) !important;
+  color: #fff !important;
+}
+
+footer .footer-btn {
+  background-color: #EBC154;
+  color: #fff;
+  width: 100%;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+footer input.form-control:focus {
+  outline: none !important;
+
+}
+
+.footer-nav-link {
+  font-size: 16px;
+  color: #fff;
+}
+
+footer hr {
+  border: 0.5px solid #fff;
+  margin-top: 0;
+}
+
+footer .social-icons div {
+  background-color: #EBC154;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+footer .social-links i {
+  color: #fff;
+  font-size: 18px;
+}
+
+footer .footer-navigation {
+  padding: 0 40px;
+  margin-top: 92px;
+}
+@Media (max-width: 560px){
+  footer .footer-btn {
+    font-size: 14px;
+}
+
+footer .form-control-lg {
+    font-size: 14px;
+}
+
+footer .footer-navigation {
+    padding: 0 10px;
+}
+
+footer ul.footer-navs {
+    padding-inline-start: 0;
+    margin-left: 0 !important;
+}
+
+footer .footer-navigation {
+    margin-top: 30px;
+}
+
+.footer-nav-link {
+    font-size: 8px;
+}
+
+.footer-navigation div {
+    flex-direction: column;
+}
+
+footer .social-icons {
+    margin-top: 20px !important;
+}
+
+footer .social-icons div {
+    height: 30px;
+    width: 30px;
+}
+
+footer .footer-text {
+    width: 100% !important;
+}
+
+footer .social-links i {
+    font-size: 14px;
+}
+
+footer .footer-logo img {
+    width: 150px;
+}
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+p, a {
+  font-size: 14px;
+}
+
+}
